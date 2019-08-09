@@ -7,5 +7,8 @@ while i > 0:
         print('登入成功')
         break
     else:
-        print('重新登入,還有', i ,'次機會')
-      
+        print('重新登入!')
+        if i > 0:
+            print('還有', i ,'次機會')
+        else:
+            print('沒機會嘗試,帳號要被鎖了')
